@@ -95,7 +95,7 @@ int main() {
     // Eto yung problemang matagal append mode pala dapat pag mag sasave
     ofstream outFile("order_summary.txt", ios::app);
     if (outFile.is_open()) {
-        outFile << "#################### ORDERING SYSTEM ####################\n\n";
+        outFile << "------------ List of Info ---------------\n\n";
         outFile << "You Have Ordered:\n\n";
         outFile << "===================================================================\n";
         outFile << left << setw(15) << "ITEM" << right << setw(10) << "\tQUANTITY" << right << setw(15) << "UNIT PRICE" << right << setw(20) << "AMOUNT\n";
